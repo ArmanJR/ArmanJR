@@ -1,4 +1,4 @@
-![Banner](https://drive.google.com/file/d/16y9imXMM9fpxpKVic6cMpClK34ATS4P9/view?usp=sharing)
+![Banner](https://drive.google.com/uc?export=download&id=16y9imXMM9fpxpKVic6cMpClK34ATS4P9)
 
 ### Hi there 👋
 #### I'm Arman Jafarnezhad, a Computer Science Graduate & Full-Stack Web Developer
