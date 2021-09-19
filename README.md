@@ -1,4 +1,5 @@
-### Hi there 👋
+### Hi there 👋 I am Arman Jafarnezhad
+#### Computer Science Graduate, Full-Stack Web Developer
 
 <!--
 **ArmanJR/ArmanJR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
