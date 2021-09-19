@@ -3,6 +3,8 @@
 ![Github](https://img.shields.io/github/followers/armanjr?label=%20Follow&style=social)&nbsp;
 ![Build](https://img.shields.io/readthedocs/pip)&nbsp;
 
+Check my [Website](http://armanjafarnezhad.ir) or download my [Resume](http://armanjafarnezhad.ir/CV.pdf) for more details about my experience.
+
 ### 🛠 &nbsp;Tech Stack
 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
@@ -17,3 +19,8 @@
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 ![NumPy](https://img.shields.io/badge/numpy%20-%23013243.svg?&style=flat&logo=numpy&logoColor=white)&nbsp;
 ![Pandas](https://img.shields.io/badge/pandas%20-%23150458.svg?&style=flat&logo=pandas&logoColor=white)&nbsp;
+
+### 📫 &nbsp; How to reach me:
+
+<a href="https://www.linkedin.com/in/armanj/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white"/></a> &nbsp;
+<a href="mailto:armanjafarnejad@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a> &nbsp;
