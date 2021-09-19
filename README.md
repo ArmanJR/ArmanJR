@@ -1,7 +1,7 @@
-![Banner](http://armanjafarnezhad.ir/hi.png)
+![Banner](https://drive.google.com/file/d/16y9imXMM9fpxpKVic6cMpClK34ATS4P9/view?usp=sharing)
 
 ### Hi there 👋
-#### Computer Science Graduate, Full-Stack Web Developer
+#### I'm Arman Jafarnezhad, a Computer Science Graduate & Full-Stack Web Developer
 ![Github](https://img.shields.io/github/followers/armanjr?label=%20Follow&style=social)&nbsp;
 ![Build](https://img.shields.io/readthedocs/pip)&nbsp;
 
