@@ -1,11 +1,9 @@
-![Banner](https://drive.google.com/uc?export=download&id=1Fydc6e0NQMYyZN93nJ9L5y9zxoo0im4f)
-
 ### Hi there 👋
-#### I'm Arman Jafarnezhad, a Computer Science Graduate & Full-Stack Web Developer
+#### I'm Arman Jafarnezhad, a Back-end Developer!
 ![Github](https://img.shields.io/github/followers/armanjr?label=%20Follow&style=social)&nbsp;
 ![Build](https://img.shields.io/readthedocs/pip)&nbsp;
 
-Check my [Website](http://armanjafarnezhad.ir) or download my [Resume](http://armanjafarnezhad.ir/CV.pdf) for more details about my experience.
+Check my [Website](http://armanjafarnezhad.ir) for more details about my experience.
 
 ### 🛠 &nbsp;Tech Stack
 
