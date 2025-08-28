@@ -1,1 +1,100 @@
-[{"test":"yes"}]
+[
+  {
+    "title": "Ganjoorjoor",
+    "description": "A modern platform for exploring Persian poetry with AI-powered search and analysis. Making classical literature more accessible through technology.",
+    "intuition": "Growing up with Persian poetry, I always struggled to find specific verses or themes across different poets. I wanted to create a tool that could understand the nuance and beauty of Persian literature while making it searchable and discoverable for modern audiences.",
+    "roadmap": [
+      "Build search infrastructure",
+      "Implement AI analysis",
+      "Create clean UI/UX",
+      "Add social features"
+    ],
+    "progress": {
+      "percentage": 85,
+      "status": "Live and actively maintained"
+    },
+    "links": [
+      {
+        "text": "Visit Site",
+        "url": "https://ganjoorjoor.net",
+        "type": "website"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/armanjr/ganjoorjoor",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "title": "Smart Recipe Assistant",
+    "description": "An AI-powered cooking companion that suggests recipes based on available ingredients, dietary restrictions, and cooking skill level. Perfect for my Italian cooking adventures!",
+    "intuition": "I constantly find myself staring at my fridge wondering what to cook with random ingredients. As someone who loves Italian cooking but sometimes lacks inspiration, I thought: why not build an AI sous chef that can be creative with whatever I have on hand?",
+    "roadmap": [
+      "Design ingredient recognition system",
+      "Build recipe recommendation engine",
+      "Implement step-by-step guidance",
+      "Add nutrition tracking"
+    ],
+    "progress": {
+      "percentage": 25,
+      "status": "Planning and prototype phase"
+    },
+    "links": [
+      {
+        "text": "Coming Soon",
+        "url": "",
+        "type": "disabled"
+      }
+    ]
+  },
+  {
+    "title": "Toronto Bike Routes Optimizer",
+    "description": "A route planning tool specifically designed for Toronto cyclists, considering bike lanes, elevation, weather, and real-time traffic data to suggest optimal cycling routes.",
+    "intuition": "After countless bike rides through Toronto where I ended up on busy streets or hit unexpected hills, I realized existing apps don't really understand the cyclist's perspective in this city. I wanted something that prioritizes safety and enjoyment over just speed.",
+    "roadmap": [
+      "Gather Toronto cycling infrastructure data",
+      "Implement route optimization algorithms",
+      "Add weather integration",
+      "Build mobile-friendly interface"
+    ],
+    "progress": {
+      "percentage": 10,
+      "status": "Research and data collection"
+    },
+    "links": [
+      {
+        "text": "In Research",
+        "url": "",
+        "type": "disabled"
+      }
+    ]
+  },
+  {
+    "title": "AI Code Review Assistant",
+    "description": "A tool that provides intelligent code reviews, suggests improvements, and helps maintain coding standards across different programming languages. Combines static analysis with machine learning insights.",
+    "intuition": "During code reviews at work, I noticed we spend a lot of time catching the same types of issues repeatedly. I wondered if AI could handle the routine stuff so we could focus on architecture and logic discussions instead of formatting and basic best practices.",
+    "roadmap": [
+      "Develop language parsing modules",
+      "Train ML models on code quality metrics",
+      "Build integration with Git workflows",
+      "Create dashboard for team insights"
+    ],
+    "progress": {
+      "percentage": 60,
+      "status": "Beta testing with small teams"
+    },
+    "links": [
+      {
+        "text": "Private Beta",
+        "url": "",
+        "type": "disabled"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/armanjr/ai-code-reviewer",
+        "type": "github"
+      }
+    ]
+  }
+]
