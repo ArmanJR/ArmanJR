@@ -1,21 +1,22 @@
 {
-    "meta": {
-      "lastUpdated": "2025-08-28T18:30:00Z"
-    },
-    "projects": [
+  "meta": {
+    "lastUpdated": "2025-08-28T19:27:20Z"
+  },
+  "projects": [
     {
       "title": "Ganjoorjoor",
-      "description": "A modern platform for exploring Persian poetry with AI-powered search and analysis. Making classical literature more accessible through technology.",
-      "intuition": "Growing up with Persian poetry, I always struggled to find specific verses or themes across different poets. I wanted to create a tool that could understand the nuance and beauty of Persian literature while making it searchable and discoverable for modern audiences.",
+      "description": "A pioneering semantic search engine for classic Persian poetry. It empowers users to discover poems based on their conceptual meaning, bridging a thousand years of rich literary history.",
+      "intuition": "I have a deep love for Persian literature, but often struggled to recall specific verses. I envisioned a search engine that could find poetry based on the meaning behind the words, not just exact keywords, making this vast literary tradition more accessible to everyone.",
       "roadmap": [
-        "Build search infrastructure",
-        "Implement AI analysis",
-        "Create clean UI/UX",
-        "Add social features"
+        "Download all poems from major poets",
+        "Benchmark top-tier embedding models",
+        "Generate embeddings for each verse and its meaning",
+        "Build the vector search engine",
+        "Develop and deploy the public website"
       ],
       "progress": {
-        "percentage": 85,
-        "status": "Live and actively maintained"
+        "percentage": 100,
+        "status": "Live, with over 20,000 successful searches"
       },
       "links": [
         {
@@ -24,79 +25,35 @@
           "type": "website"
         },
         {
-          "text": "GitHub",
-          "url": "https://github.com/armanjr/ganjoorjoor",
-          "type": "github"
+          "text": "Full Story",
+          "url": "https://x.com/itsArmanJr/status/1893176047337648465",
+          "type": "twitter"
         }
       ]
     },
     {
-      "title": "Smart Recipe Assistant",
-      "description": "An AI-powered cooking companion that suggests recipes based on available ingredients, dietary restrictions, and cooking skill level. Perfect for my Italian cooking adventures!",
-      "intuition": "I constantly find myself staring at my fridge wondering what to cook with random ingredients. As someone who loves Italian cooking but sometimes lacks inspiration, I thought: why not build an AI sous chef that can be creative with whatever I have on hand?",
+      "title": "Termustat",
+      "description": "An online tool that helps university students schedule their academic semesters. Since its launch in 2018, Termustat has efficiently served over 2,000 students across three public universities in Iran.",
+      "intuition": "During my second year of undergrad, course planning was a frustrating manual task. We had to sift through a large PDF of courses to build a conflict-free schedule by hand. I wanted to create a tool to automate this tedious process entirely.",
       "roadmap": [
-        "Design ingredient recognition system",
-        "Build recipe recommendation engine",
-        "Implement step-by-step guidance",
-        "Add nutrition tracking"
+        "Build the initial course scraper",
+        "Develop the course data processor",
+        "Create the online scheduling table interface",
+        "Deploy the live website"
       ],
       "progress": {
-        "percentage": 25,
-        "status": "Planning and prototype phase"
+        "percentage": 100,
+        "status": "Online (currently undergoing a full refactor)"
       },
       "links": [
         {
-          "text": "Coming Soon",
-          "url": "",
-          "type": "disabled"
-        }
-      ]
-    },
-    {
-      "title": "Toronto Bike Routes Optimizer",
-      "description": "A route planning tool specifically designed for Toronto cyclists, considering bike lanes, elevation, weather, and real-time traffic data to suggest optimal cycling routes.",
-      "intuition": "After countless bike rides through Toronto where I ended up on busy streets or hit unexpected hills, I realized existing apps don't really understand the cyclist's perspective in this city. I wanted something that prioritizes safety and enjoyment over just speed.",
-      "roadmap": [
-        "Gather Toronto cycling infrastructure data",
-        "Implement route optimization algorithms",
-        "Add weather integration",
-        "Build mobile-friendly interface"
-      ],
-      "progress": {
-        "percentage": 10,
-        "status": "Research and data collection"
-      },
-      "links": [
-        {
-          "text": "In Research",
-          "url": "",
-          "type": "disabled"
-        }
-      ]
-    },
-    {
-      "title": "AI Code Review Assistant",
-      "description": "A tool that provides intelligent code reviews, suggests improvements, and helps maintain coding standards across different programming languages. Combines static analysis with machine learning insights.",
-      "intuition": "During code reviews at work, I noticed we spend a lot of time catching the same types of issues repeatedly. I wondered if AI could handle the routine stuff so we could focus on architecture and logic discussions instead of formatting and basic best practices.",
-      "roadmap": [
-        "Develop language parsing modules",
-        "Train ML models on code quality metrics",
-        "Build integration with Git workflows",
-        "Create dashboard for team insights"
-      ],
-      "progress": {
-        "percentage": 60,
-        "status": "Beta testing with small teams"
-      },
-      "links": [
-        {
-          "text": "Private Beta",
-          "url": "",
-          "type": "disabled"
+          "text": "Visit Site",
+          "url": "https://termustat.com",
+          "type": "website"
         },
         {
           "text": "GitHub",
-          "url": "https://github.com/armanjr/ai-code-reviewer",
+          "url": "https://github.com/ArmanJR/termustat",
           "type": "github"
         }
       ]
