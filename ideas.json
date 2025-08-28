@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2025-08-28T19:27:20Z"
+    "lastUpdated": "2025-08-28T23:33:00Z"
   },
   "projects": [
     {
@@ -10,17 +10,17 @@
       "roadmap": [
         "Download all poems from major poets",
         "Benchmark top-tier embedding models",
-        "Generate embeddings for each verse and its meaning",
+        "Generate embeddings for each verse + meaning",
         "Build the vector search engine",
         "Develop and deploy the public website"
       ],
       "progress": {
         "percentage": 100,
-        "status": "Live, with over 20,000 successful searches"
+        "status": "Online, with over 20,000 successful searches"
       },
       "links": [
         {
-          "text": "Visit Site",
+          "text": "Website",
           "url": "https://ganjoorjoor.net",
           "type": "website"
         },
@@ -43,17 +43,138 @@
       ],
       "progress": {
         "percentage": 100,
-        "status": "Online (currently undergoing a full refactor)"
+        "status": "Online, currently undergoing a full refactor"
       },
       "links": [
         {
-          "text": "Visit Site",
+          "text": "Website",
           "url": "https://termustat.com",
           "type": "website"
         },
         {
           "text": "GitHub",
           "url": "https://github.com/ArmanJR/termustat",
+          "type": "github"
+        }
+      ]
+    },
+    {
+      "title": "Digikala & Amazon Rating Laplace",
+      "description": "A browser extension that enhances Amazon and Digikala by providing more reliable product ratings. It applies Laplace's Rule of Succession to calculate a Laplacian score, helping users make better decisions by balancing high ratings with low review counts.",
+      "intuition": "I often struggled to choose between products with high ratings from few reviews and those with slightly lower ratings but a large volume of reviews.",
+      "roadmap": [
+        "Research Laplace's Rule of Succession",
+        "Develop the core rating calculation logic",
+        "Build the browser extension",
+        "Port the extension to support Amazon + Digikala"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Available for installation"
+      },
+      "links": [
+        {
+          "text": "Install",
+          "url": "https://greasyfork.org/en/scripts/443692-digikala-rating-laplace",
+          "type": "install"
+        },
+        {
+          "text": "The Story",
+          "url": "https://x.com/itsArmanJr/status/1516781315139555333?s=20",
+          "type": "twitter"
+        }
+      ]
+    },
+    {
+      "title": "Artemis One",
+      "description": "A palm-sized, fully offline AI assistant that offers private, plug-and-play intelligence. It speaks, listens, and orchestrates tools with the power of a cloud GPU stack, but all computation happens locally. Your data never leaves the room.",
+      "intuition": "I find today’s AI assistants frustrating. They feel fragmented, forget everything I say, and rely too much on the cloud, which makes me worry about privacy. I started imagining a device that could handle my workflows securely and locally, giving me real control and ownership of my data.",
+      "roadmap": [
+        "Research the pitfalls of current voice AI",
+        "Deep-dive into LLM agents and edge device constraints",
+        "Develop low-level CUDA implementations",
+        "Design and build the hardware prototype",
+        "TBD..."
+      ],
+      "progress": {
+        "percentage": 30,
+        "status": "Working prototype built"
+      },
+      "links": [
+        {
+          "text": "Website",
+          "url": "https://artemisone.io",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "title": "Mehrabad FIDS",
+      "description": "A custom Flight Information Display System (FIDS) built with an ESP32 and an LCD screen. It fetches real-time data to identify the airline, type, and destination of airplanes flying overhead.",
+      "intuition": "I had a great balcony with a spectacular view over the city, especially the airport runway. When a loved one once wondered where a plane was headed, the idea for this project was born.",
+      "roadmap": [
+        "Learn about ESP32, I2C LCD, and power components",
+        "Develop Arduino code for WiFi connectivity and data fetching",
+        "Create a Python script to query the FlightRadar24 API",
+        "Design and mount the final device on the balcony wall"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Completed"
+      },
+      "links": [
+        {
+          "text": "GitHub",
+          "url": "https://github.com/ArmanJR/mehrabad-fids",
+          "type": "github"
+        },
+        {
+          "text": "The Story",
+          "url": "https://x.com/itsArmanj/status/1665100915819307015?s=20",
+          "type": "twitter"
+        }
+      ]
+    },
+    {
+      "title": "Chi Shod Bot",
+      "description": "A Telegram bot that provides on-demand summaries of group chat conversations. It uses OpenAI's ChatGPT API and a circular buffer for efficient message handling to deliver a quick 'TL;DR' for users.",
+      "intuition": "I noticed friends frequently joining our group chat after a long absence and asking, 'Chi shod?' (Persian for 'What happened?').",
+      "roadmap": [
+        "Build the core Telegram bot framework",
+        "Implement Circular Buffer for message memory",
+        "Integrate with OpenAI for summarization",
+        "Deploy on a private VPS for active use"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Deployed (no longer maintained)"
+      },
+      "links": [
+        {
+          "text": "GitHub",
+          "url": "https://github.com/ArmanJR/chi-shod-bot",
+          "type": "github"
+        }
+      ]
+    },
+    {
+      "title": "GeoJSON Indoor Tools",
+      "description": "A set of specialized Python scripts for editing GeoJSON files, specifically created to handle indoor mapping features like adding walls and doors to building polygons.",
+      "intuition": "While developing an indoor positioning service, I discovered a lack of tools for detailed GeoJSON editing. Standard software couldn't add architectural features like walls or doors, so I built my own solution to fill that gap.",
+      "roadmap": [
+        "Identify critical missing features",
+        "Solve the math of adding walls + doors",
+        "Develop and test the core Python scripts",
+        "Publish the tools as an open-source package"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Completed and open-sourced"
+      },
+      "links": [
+        {
+          "text": "GitHub",
+          "url": "https://github.com/ArmanJR/geojson-indoor-tools",
           "type": "github"
         }
       ]
