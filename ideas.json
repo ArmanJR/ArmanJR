@@ -178,6 +178,153 @@
           "type": "github"
         }
       ]
+    },
+    {
+      "title": "CGOL Twitter",
+      "description": "A twitter for a Turing-complete computer built entirely within Conway's Game of Life. This complex system is capable of printing predefined messages, such as English letters or pixel art, on its 32x32 virtual display.",
+      "intuition": "My fascination with Conway's Game of Life peaked when I saw a simulation running within itself, a demonstration of its Turing completeness. This sparked a creative challenge: could I tweet nothing but a word LIFE, and in the same thread, build a computer that literally tweets LIFE?",
+      "roadmap": [
+        "Explore CGOL patterns + universal logic gates",
+        "Develop an Assembly code generator",
+        "Design the initial Persian LIFE",
+        "Generate the final CGOL pattern"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Experiment completed"
+      },
+      "links": [
+        {
+          "text": "GitHub",
+          "url": "https://github.com/ArmanJR/cgol-twitter",
+          "type": "github"
+        },
+        {
+          "text": "The Story",
+          "url": "https://x.com/itsArmanJr/status/1881936667453673677",
+          "type": "twitter"
+        }
+      ]
+    },
+    {
+      "title": "Digikala Vector Search",
+      "description": "A proof-of-concept semantic search engine for Digikala, Iran's largest e-commerce platform. This project leverages Elasticsearch and sentence-transformer models to enable product discovery based on the meaning of search queries, not just keywords.",
+      "intuition": "Frustrated with the keyword-based limitations of Digikala's native search, I saw an opportunity to apply my experience in vector search. The goal was to build a proof-of-concept that could demonstrate the power of semantic understanding in an e-commerce context.",
+      "roadmap": [
+        "Store and analyze all DigiKala products",
+        "Generate embeddings",
+        "Build a search engine",
+        "Test the model and app"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Proof of concept complete"
+      },
+      "links": [
+        {
+          "text": "GitHub",
+          "url": "https://github.com/ArmanJR/Digikala-Vector-Search",
+          "type": "github"
+        },
+        {
+          "text": "The Story",
+          "url": "https://x.com/itsArmanJr/status/1789916739733475585",
+          "type": "twitter"
+        }
+      ]
+    },
+    {
+      "title": "LinkedIn Job Skills Highlighter",
+      "description": "A browser extension designed to streamline the job application process by automatically highlighting user-defined keywords and skills within LinkedIn job descriptions.",
+      "intuition": "Applying for jobs involved a repetitive, manual process: opening a job post, clicking 'show more,' and scanning the entire text for required skills.",
+      "roadmap": [
+        "Analyze the DOM structure of LinkedIn job pages",
+        "Develop core logic to inject UI + highlight text",
+        "Test across various job posting formats",
+        "Package and release as a browser extension"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Live and available for installation"
+      },
+      "links": [
+        {
+          "text": "Install Script",
+          "url": "https://greasyfork.org/en/scripts/527243-linkedin-job-skills-highlighter",
+          "type": "install"
+        },
+        {
+          "text": "GitHub",
+          "url": "https://github.com/ArmanJR/LinkedIn-Job-Skills-Highlighter",
+          "type": "github"
+        }
+      ]
+    },
+    {
+      "title": "Lyrics Video Generator",
+      "description": "A Python application that generates a unique music video from a user's recent tweets. It uses Google's Gemini to craft lyrics from the tweets and Suno AI to compose and perform an original song.",
+      "intuition": "Inspired by Martin Scorsese's belief that 'the most personal is the most creative,' I wondered if AI could create art that truly reflects an individual's life.",
+      "roadmap": [
+        "Build user's recent tweets scraper",
+        "Engineer prompts for Gemini and Suno AI",
+        "Use ffmpeg to combine audio and visuals",
+        "Automate the final video export process"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Completed (Private use)"
+      },
+      "links": [
+        {
+          "text": "See Examples",
+          "url": "https://x.com/itsArmanj/status/1918730180308123993",
+          "type": "twitter"
+        }
+      ]
+    },
+    {
+      "title": "JobJar.cc",
+      "description": "An automated job application tracking system. JobJar uses AI to organize, track, and provide detailed insights on applications, allowing job seekers to focus on interviews instead of administration.",
+      "intuition": "The idea sparked from Gmail's feature of treating dotted email addresses as the same alias. I realized I could use a unique dotted version of my email for job applications, then automatically forward all responses to an AI that would classify and track everything without any manual input.",
+      "roadmap": [
+        "Configure dedicated Gmail and forwarding it",
+        "Develop a backend with a mail server",
+        "Code the AI classifier for application statuses",
+        "Create a dashboard for viewing applications"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Completed (Private use)"
+      },
+      "links": [
+        {
+          "text": "Visit Site",
+          "url": "https://jobjar.cc",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "title": "Take Me Home",
+      "description": "An experimental tool that leverages chaos theory to find significant price reductions on ride-hailing services. By testing minor variations in pickup locations, it exploits the pricing algorithms' sensitivity to initial conditions, often revealing fares up to 50% cheaper.",
+      "intuition": "While reading about chaos theory, I hypothesized that the complex pricing algorithms of ride-hailing apps would behave as chaotic systems. I tested this by requesting fares from slightly different pickup points and discovered that minor changes could lead to dramatic price differences.",
+      "roadmap": [
+        "Reverse-engineer the price request APIs for Snapp and Tap30",
+        "Develop a script to generate random nearby geographic coordinates",
+        "Automate fetching and comparing prices from multiple points",
+        "Create a function to export the optimal coordinates to the official app"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Completed (Private use, discontinued)"
+      },
+      "links": [
+        {
+          "text": "The Story",
+          "url": "https://x.com/itsArmanJr/status/1520550483882131457",
+          "type": "twitter"
+        }
+      ]
     }
   ]
 }
