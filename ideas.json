@@ -20,14 +20,14 @@
       },
       "links": [
         {
+          "text": "Full Story",
+          "url": "https://x.com/itsArmanJr/status/1893176047337648465",
+          "type": "github"
+        },
+        {
           "text": "Website",
           "url": "https://ganjoorjoor.net",
           "type": "website"
-        },
-        {
-          "text": "Full Story",
-          "url": "https://x.com/itsArmanJr/status/1893176047337648465",
-          "type": "twitter"
         }
       ]
     },
@@ -47,14 +47,59 @@
       },
       "links": [
         {
-          "text": "Website",
-          "url": "https://termustat.com",
-          "type": "website"
-        },
-        {
           "text": "GitHub",
           "url": "https://github.com/ArmanJR/termustat",
           "type": "github"
+        },
+        {
+          "text": "Website",
+          "url": "https://termustat.com",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "title": "Take Me Home",
+      "description": "A tool that leverages chaos theory to find significant price reductions on ride-hailing services. By testing minor variations in pickup and drop-off locations, it exploits the pricing algorithms' sensitivity to initial conditions, often revealing fares up to 50% cheaper.",
+      "intuition": "While reading about chaos theory, I hypothesized that the complex pricing algorithms of ride-hailing apps would behave as chaotic systems. I tested this by requesting fares from slightly different pickup points and discovered that minor changes could lead to dramatic price differences.",
+      "roadmap": [
+        "Reverse-engineer the price request APIs for Snapp and Tap30",
+        "Develop a script to generate random nearby geographic coordinates",
+        "Automate fetching and comparing prices from multiple points",
+        "Create a function to export the optimal coordinates to the official app"
+      ],
+      "progress": {
+        "percentage": 100,
+        "status": "Completed (Private use, discontinued)"
+      },
+      "links": [
+        {
+          "text": "The Story",
+          "url": "https://x.com/itsArmanJr/status/1520550483882131457",
+          "type": "twitter"
+        }
+      ]
+    },
+    {
+      "title": "Artemis One",
+      "description": "A palm-sized, fully offline AI assistant that offers private, plug-and-play intelligence. It speaks, listens, and orchestrates tools with the power of a cloud GPU stack, but all computation happens locally. Your data never leaves the room.",
+      "intuition": "I find today’s AI assistants frustrating. They feel fragmented, forget everything I say, and rely too much on the cloud, which makes me worry about privacy. I started imagining a device that could handle my workflows securely and locally, giving me real control and ownership of my data.",
+      "roadmap": [
+        "Research the pitfalls of current voice AI",
+        "Deep-dive into LLM agents + edge devices",
+        "Develop low-level CUDA implementations",
+        "Design and build the hardware prototype",
+        "TBD..."
+      ],
+      "progress": {
+        "percentage": 30,
+        "status": "Working prototype built successfully"
+      },
+      "links": [
+        {
+          "text": "Website",
+          "url": "https://artemisone.io",
+          "type": "website"
         }
       ]
     },
@@ -86,37 +131,14 @@
       ]
     },
     {
-      "title": "Artemis One",
-      "description": "A palm-sized, fully offline AI assistant that offers private, plug-and-play intelligence. It speaks, listens, and orchestrates tools with the power of a cloud GPU stack, but all computation happens locally. Your data never leaves the room.",
-      "intuition": "I find today’s AI assistants frustrating. They feel fragmented, forget everything I say, and rely too much on the cloud, which makes me worry about privacy. I started imagining a device that could handle my workflows securely and locally, giving me real control and ownership of my data.",
-      "roadmap": [
-        "Research the pitfalls of current voice AI",
-        "Deep-dive into LLM agents and edge device constraints",
-        "Develop low-level CUDA implementations",
-        "Design and build the hardware prototype",
-        "TBD..."
-      ],
-      "progress": {
-        "percentage": 30,
-        "status": "Working prototype built"
-      },
-      "links": [
-        {
-          "text": "Website",
-          "url": "https://artemisone.io",
-          "type": "website"
-        }
-      ]
-    },
-    {
       "title": "Mehrabad FIDS",
       "description": "A custom Flight Information Display System (FIDS) built with an ESP32 and an LCD screen. It fetches real-time data to identify the airline, type, and destination of airplanes flying overhead.",
       "intuition": "I had a great balcony with a spectacular view over the city, especially the airport runway. When a loved one once wondered where a plane was headed, the idea for this project was born.",
       "roadmap": [
-        "Learn about ESP32, I2C LCD, and power components",
-        "Develop Arduino code for WiFi connectivity and data fetching",
-        "Create a Python script to query the FlightRadar24 API",
-        "Design and mount the final device on the balcony wall"
+        "Learn about ESP32, I2C LCD, and power",
+        "Develop Arduino code for WiFi + data fetch",
+        "Build a server to query FlightRadar24",
+        "Mount the device on the balcony wall"
       ],
       "progress": {
         "percentage": 100,
@@ -137,8 +159,8 @@
     },
     {
       "title": "Chi Shod Bot",
-      "description": "A Telegram bot that provides on-demand summaries of group chat conversations. It uses OpenAI's ChatGPT API and a circular buffer for efficient message handling to deliver a quick 'TL;DR' for users.",
-      "intuition": "I noticed friends frequently joining our group chat after a long absence and asking, 'Chi shod?' (Persian for 'What happened?').",
+      "description": "A Telegram bot that provides on-demand summaries of group chat conversations. It uses OpenAI's ChatGPT API and a circular buffer for efficient message handling to deliver a quick TLDR for users.",
+      "intuition": "I noticed friends frequently joining our group chat after a long absence and asking: Chi shod? (Persian for What happened?).",
       "roadmap": [
         "Build the core Telegram bot framework",
         "Implement Circular Buffer for message memory",
@@ -249,14 +271,14 @@
       },
       "links": [
         {
-          "text": "Install Script",
-          "url": "https://greasyfork.org/en/scripts/527243-linkedin-job-skills-highlighter",
-          "type": "install"
-        },
-        {
           "text": "GitHub",
           "url": "https://github.com/ArmanJR/LinkedIn-Job-Skills-Highlighter",
           "type": "github"
+        },
+        {
+          "text": "Install Script",
+          "url": "https://greasyfork.org/en/scripts/527243-linkedin-job-skills-highlighter",
+          "type": "install"
         }
       ]
     },
@@ -301,28 +323,6 @@
           "text": "Visit Site",
           "url": "https://jobjar.cc",
           "type": "website"
-        }
-      ]
-    },
-    {
-      "title": "Take Me Home",
-      "description": "An experimental tool that leverages chaos theory to find significant price reductions on ride-hailing services. By testing minor variations in pickup locations, it exploits the pricing algorithms' sensitivity to initial conditions, often revealing fares up to 50% cheaper.",
-      "intuition": "While reading about chaos theory, I hypothesized that the complex pricing algorithms of ride-hailing apps would behave as chaotic systems. I tested this by requesting fares from slightly different pickup points and discovered that minor changes could lead to dramatic price differences.",
-      "roadmap": [
-        "Reverse-engineer the price request APIs for Snapp and Tap30",
-        "Develop a script to generate random nearby geographic coordinates",
-        "Automate fetching and comparing prices from multiple points",
-        "Create a function to export the optimal coordinates to the official app"
-      ],
-      "progress": {
-        "percentage": 100,
-        "status": "Completed (Private use, discontinued)"
-      },
-      "links": [
-        {
-          "text": "The Story",
-          "url": "https://x.com/itsArmanJr/status/1520550483882131457",
-          "type": "twitter"
         }
       ]
     }
