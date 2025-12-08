@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2025-08-28T23:33:00Z"
+    "lastUpdated": "2025-12-07T23:52:00Z"
   },
   "projects": [
     {
@@ -27,6 +27,27 @@
         {
           "text": "Website",
           "url": "https://ganjoorjoor.net",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "title": "Project Artemis",
+      "description": "My personal mission to build AGI from the ground up, progressing through three stages: Artemis Zero (cloud-based life assistant), Artemis One (Artemis Zero but hardware-accelerated and fully private), and Artemis V (vision-enabled).",
+      "intuition": "I'm already way more productive using AI for coding and professional work. If AI can transform how I work, why not use it to hack my entire life? I am building a fully private life coach that integrates all the intelligence in the world into every aspect of my day-to-day. This is one of the most ambitious projects I've ever taken on.",
+      "roadmap": [
+        "Artemis Zero: Personal life assistant",
+        "Artemis One: Hardware-accelerated, fully offline, expanded capabilities",
+        "Artemis V: Vision-enabled intelligence"
+      ],
+      "progress": {
+        "percentage": 30,
+        "status": "Under development"
+      },
+      "links": [
+        {
+          "text": "Website",
+          "url": "https://artemisone.io",
           "type": "website"
         }
       ]
@@ -77,29 +98,6 @@
           "text": "The Story",
           "url": "https://x.com/itsArmanJr/status/1520550483882131457",
           "type": "twitter"
-        }
-      ]
-    },
-    {
-      "title": "Artemis One",
-      "description": "A palm-sized, fully offline AI assistant that offers private, plug-and-play intelligence. It speaks, listens, and orchestrates tools with the power of a cloud GPU stack, but all computation happens locally. Your data never leaves the room.",
-      "intuition": "I find today’s AI assistants frustrating. They feel fragmented, forget everything I say, and rely too much on the cloud, which makes me worry about privacy. I started imagining a device that could handle my workflows securely and locally, giving me real control and ownership of my data.",
-      "roadmap": [
-        "Research the pitfalls of current voice AI",
-        "Deep-dive into LLM agents + edge devices",
-        "Develop low-level CUDA implementations",
-        "Design and build the hardware prototype",
-        "TBD..."
-      ],
-      "progress": {
-        "percentage": 30,
-        "status": "Working prototype built successfully"
-      },
-      "links": [
-        {
-          "text": "Website",
-          "url": "https://artemisone.io",
-          "type": "website"
         }
       ]
     },
@@ -309,10 +307,10 @@
       "description": "An automated job application tracking system. JobJar uses AI to organize, track, and provide detailed insights on applications, allowing job seekers to focus on interviews instead of administration.",
       "intuition": "The idea sparked from Gmail's feature of treating dotted email addresses as the same alias. I realized I could use a unique dotted version of my email for job applications, then automatically forward all responses to an AI that would classify and track everything without any manual input.",
       "roadmap": [
-        "Configure dedicated Gmail and forwarding it",
+        "Configure dedicated Gmail and forward it",
         "Develop a backend with a mail server",
         "Code the AI classifier for application statuses",
-        "Create a dashboard for viewing applications"
+        "Create a dashboard for viewing applications."
       ],
       "progress": {
         "percentage": 100,
