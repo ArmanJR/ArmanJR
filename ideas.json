@@ -32,27 +32,6 @@
       ]
     },
     {
-      "title": "Project Artemis",
-      "description": "My personal mission to build AGI from the ground up, progressing through three stages: Artemis Zero (cloud-based life assistant), Artemis One (Artemis Zero but hardware-accelerated and fully private), and Artemis V (vision-enabled).",
-      "intuition": "I'm already way more productive using AI for coding and professional work. If AI can transform how I work, why not use it to hack my entire life? I am building a fully private life coach that integrates all the intelligence in the world into every aspect of my day-to-day. This is one of the most ambitious projects I've ever taken on.",
-      "roadmap": [
-        "Artemis Zero: Personal life assistant",
-        "Artemis One: Hardware-accelerated, fully offline, expanded capabilities",
-        "Artemis V: Vision-enabled intelligence"
-      ],
-      "progress": {
-        "percentage": 30,
-        "status": "Under development"
-      },
-      "links": [
-        {
-          "text": "Website",
-          "url": "https://artemisone.io",
-          "type": "website"
-        }
-      ]
-    },
-    {
       "title": "Termustat",
       "description": "An online tool that helps university students schedule their academic semesters. Since its launch in 2018, Termustat has efficiently served over 2,000 students across three public universities in Iran.",
       "intuition": "During my second year of undergrad, course planning was a frustrating manual task. We had to sift through a large PDF of courses to build a conflict-free schedule by hand. I wanted to create a tool to automate this tedious process entirely.",
@@ -60,7 +39,8 @@
         "Build the initial course scraper",
         "Develop the course data processor",
         "Create the online scheduling table interface",
-        "Deploy the live website"
+        "Deploy the website",
+        "Timetable optimizations using Genetic Algorithm"
       ],
       "progress": {
         "percentage": 100,
@@ -75,6 +55,27 @@
         {
           "text": "Website",
           "url": "https://termustat.com",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "title": "Project Artemis",
+      "description": "My personal mission to build AGI from the ground up, progressing through three stages: Artemis Zero (cloud-based life assistant), Artemis One (hardware-accelerated fully private), and Artemis V (vision).",
+      "intuition": "I'm already way more productive using AI for coding professionally. If AI can transform how I work, why not use it to hack my entire life? I am building a fully private life coach that integrates all the intelligence in the world into every aspect of my daily life decisions. This is one of the most ambitious projects I've ever taken on.",
+      "roadmap": [
+        "Artemis Zero: Personal life assistant agent",
+        "Artemis One: Hardware-accelerated, fully offline",
+        "Artemis V: Vision-enabled intelligence"
+      ],
+      "progress": {
+        "percentage": 30,
+        "status": "Under development"
+      },
+      "links": [
+        {
+          "text": "Artemis One Website",
+          "url": "https://artemisone.io",
           "type": "website"
         }
       ]
@@ -307,10 +308,10 @@
       "description": "An automated job application tracking system. JobJar uses AI to organize, track, and provide detailed insights on applications, allowing job seekers to focus on interviews instead of administration.",
       "intuition": "The idea sparked from Gmail's feature of treating dotted email addresses as the same alias. I realized I could use a unique dotted version of my email for job applications, then automatically forward all responses to an AI that would classify and track everything without any manual input.",
       "roadmap": [
-        "Configure dedicated Gmail and forward it",
+        "Configure dedicated Gmail and forwarding it",
         "Develop a backend with a mail server",
         "Code the AI classifier for application statuses",
-        "Create a dashboard for viewing applications."
+        "Create a dashboard for viewing applications"
       ],
       "progress": {
         "percentage": 100,
