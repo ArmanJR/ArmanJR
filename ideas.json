@@ -86,8 +86,8 @@
       "intuition": "While reading about chaos theory, I hypothesized that the complex pricing algorithms of ride-hailing apps would behave as chaotic systems. I tested this by requesting fares from slightly different pickup points and discovered that minor changes could lead to dramatic price differences.",
       "roadmap": [
         "Reverse-engineer the price APIs for Snapp and Tap30",
-        "Develop a script to select nearby geographic coordinates",
-        "Automate fetch and compare prices from multiple points",
+        "Develop a script to select nearby coordinates",
+        "Automate comparing prices from multiple points",
         "Export the detailed optimal coordinates on a map"
       ],
       "progress": {
