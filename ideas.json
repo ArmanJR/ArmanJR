@@ -85,10 +85,10 @@
       "description": "A tool that leverages chaos theory to find significant price reductions on ride-hailing services. By testing minor variations in pickup and drop-off locations, it exploits the pricing algorithms' sensitivity to initial conditions, often revealing fares up to 50% cheaper.",
       "intuition": "While reading about chaos theory, I hypothesized that the complex pricing algorithms of ride-hailing apps would behave as chaotic systems. I tested this by requesting fares from slightly different pickup points and discovered that minor changes could lead to dramatic price differences.",
       "roadmap": [
-        "Reverse-engineer the price request APIs for Snapp and Tap30",
-        "Develop a script to generate random nearby geographic coordinates",
-        "Automate fetching and comparing prices from multiple points",
-        "Create a function to export the optimal coordinates to the official app"
+        "Reverse-engineer the price APIs for Snapp and Tap30",
+        "Develop a script to select nearby geographic coordinates",
+        "Automate fetch and compare prices from multiple points",
+        "Export the detailed optimal coordinates on a map"
       ],
       "progress": {
         "percentage": 100,
@@ -282,36 +282,14 @@
       ]
     },
     {
-      "title": "Lyrics Video Generator",
-      "description": "A Python application that generates a unique music video from a user's recent tweets. It uses Google's Gemini to craft lyrics from the tweets and Suno AI to compose and perform an original song.",
-      "intuition": "Inspired by Martin Scorsese's belief that 'the most personal is the most creative,' I wondered if AI could create art that truly reflects an individual's life.",
+      "title": "JobJar.cc & TagDig",
+      "description": "An automated job application tracking system. JobJar uses AI to organize, track, and provide detailed insights on applications, allowing job seekers to focus on interviews instead of administration. TagDig is a private email classifier.",
+      "intuition": "The idea sparked from Gmail's feature of treating dotted email addresses as the same alias. I realized I could use a unique dotted version of my email for job applications, then automatically forward all responses to a private AI that would classify and track everything without any manual input.",
       "roadmap": [
-        "Build user's recent tweets scraper",
-        "Engineer prompts for Gemini and Suno AI",
-        "Use ffmpeg to combine audio and visuals",
-        "Automate the final video export process"
-      ],
-      "progress": {
-        "percentage": 100,
-        "status": "Completed (Private use)"
-      },
-      "links": [
-        {
-          "text": "See Examples",
-          "url": "https://x.com/itsArmanj/status/1918730180308123993",
-          "type": "twitter"
-        }
-      ]
-    },
-    {
-      "title": "JobJar.cc",
-      "description": "An automated job application tracking system. JobJar uses AI to organize, track, and provide detailed insights on applications, allowing job seekers to focus on interviews instead of administration.",
-      "intuition": "The idea sparked from Gmail's feature of treating dotted email addresses as the same alias. I realized I could use a unique dotted version of my email for job applications, then automatically forward all responses to an AI that would classify and track everything without any manual input.",
-      "roadmap": [
-        "Configure dedicated Gmail and forwarding it",
+        "Forward job application email to the server",
         "Develop a backend with a mail server",
-        "Code the AI classifier for application statuses",
-        "Create a dashboard for viewing applications"
+        "Build a fully private email classifier",
+        "Create a dashboard to monitor all applications"
       ],
       "progress": {
         "percentage": 100,
@@ -319,7 +297,12 @@
       },
       "links": [
         {
-          "text": "Visit Site",
+          "text": "TagDig GitHub",
+          "url": "https://github.com/ArmanJR/TagDig",
+          "type": "github"
+        },
+        {
+          "text": "JobJar Website",
           "url": "https://jobjar.cc",
           "type": "website"
         }
